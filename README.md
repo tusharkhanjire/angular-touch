@@ -1,10 +1,10 @@
-# angular-touch
+# Angular-touch
 
 Angular UI + HTML5  that will let you create beautiful application which are based on touch and gesture.
 The touch events are very helpful for the Mobile/Tablet application as well as Mobile/Tablet view.
 
 
-# angularJs Configuration
+# AngularJs Configuration
 
 ## Here is how to define your module has dependent on mobile-angular-ui
 
@@ -28,11 +28,13 @@ app.run(function($transform) {
 
 ```
 
-# angularJs Routing
+# AngularJs Routing
  
- You can configure ngRoute as always, but to take advantage of SharedState location
- in order to avoid unwanted routing.
+ * You can configure ngRoute as always, but to take advantage of SharedState location
+ * in order to avoid unwanted routing.
 
+
+```
 app.config(function($routeProvider) {
   $routeProvider.when('/',              {templateUrl: '/demo/home.html', reloadOnSearch: false});
   $routeProvider.when('/touch',         {templateUrl: '/demo/touch.html', reloadOnSearch: false});
@@ -42,3 +44,4 @@ app.config(function($routeProvider) {
   $routeProvider.when('/carousel',      {templateUrl: '/demo/carousel.html', reloadOnSearch: false});
 });
 
+```
