@@ -155,3 +155,4 @@ input.scrollable-header {
 
 .toucharea {width: 100%; height: 100%;}
 .carousel-item{cursor:pointer;}
+.information {font-size: 16px;font-family: fantasy;border: 1px solid #ccc;padding: 10px;}
