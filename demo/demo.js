@@ -25,12 +25,12 @@ app.run(function($transform) {
 // in order to avoid unwanted routing.
 // 
 app.config(function($routeProvider) {
-  $routeProvider.when('/',              {templateUrl: '/angular-touch/demo/home.html', reloadOnSearch: false});
-  $routeProvider.when('/touch',         {templateUrl: '/angular-touch/demo/touch.html', reloadOnSearch: false});
-  $routeProvider.when('/swipe',         {templateUrl: '/angular-touch/demo/swipe.html', reloadOnSearch: false});
-  $routeProvider.when('/drag',          {templateUrl: '/angular-touch/demo/drag.html', reloadOnSearch: false});
-  $routeProvider.when('/drag2',         {templateUrl: '/angular-touch/demo/drag2.html', reloadOnSearch: false});
-  $routeProvider.when('/carousel',      {templateUrl: '/angular-touch/demo/carousel.html', reloadOnSearch: false});
+  $routeProvider.when('/',              {templateUrl: '/angular-touch-master/demo/home.html', reloadOnSearch: false});
+  $routeProvider.when('/touch',         {templateUrl: '/angular-touch-master/demo/touch.html', reloadOnSearch: false});
+  $routeProvider.when('/swipe',         {templateUrl: '/angular-touch-master/demo/swipe.html', reloadOnSearch: false});
+  $routeProvider.when('/drag',          {templateUrl: '/angular-touch-master/demo/drag.html', reloadOnSearch: false});
+  $routeProvider.when('/drag2',         {templateUrl: '/angular-touch-master/demo/drag2.html', reloadOnSearch: false});
+  $routeProvider.when('/carousel',      {templateUrl: '/angular-touch-master/demo/carousel.html', reloadOnSearch: false});
 });
 
 // 
