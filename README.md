@@ -5,19 +5,17 @@ The touch events are very helpful for the Mobile/Tablet application as well as M
 
 
 # angularJs Configuration
-,,,
-// Angular Touch Demo by Tushar Khanjire
-// Here is how to define your module 
-// has dependent on mobile-angular-ui
-//
-// touch/drag feature: this is from 'mobile-angular-ui.gestures.js'
-// it is at a very beginning stage, so please be careful if you like to use
-// in production. This is intended to provide a flexible, integrated and and 
-// easy to use alternative to other 3rd party libs like hammer.js, with the
-// final pourpose to integrate gestures into default ui interactions like 
-// opening sidebars, turning switches on/off ..
+
+Angular Touch Demo by Tushar Khanjire
+Here is how to define your module has dependent on mobile-angular-ui
+touch/drag feature: this is from 'mobile-angular-ui.gestures.js'
+it is at a very beginning stage, so please be careful if you like to use
+in production. This is intended to provide a flexible, integrated and and 
+easy to use alternative to other 3rd party libs like hammer.js, with the
+final pourpose to integrate gestures into default ui interactions like 
+opening sidebars, turning switches on/off ..
   
-,,,  
+
 var app = angular.module('MobileAngularUiExamples', [
   'ngRoute',
   'mobile-angular-ui',
@@ -26,7 +24,7 @@ var app = angular.module('MobileAngularUiExamples', [
 app.run(function($transform) {
   window.$transform = $transform;
 });
-,,,
+
 
 # angularJs Routing
 // 
